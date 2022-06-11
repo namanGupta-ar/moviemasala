@@ -1,0 +1,60 @@
+
+/* Style for favourite list , buttons */
+.favourite{
+    height: 87vh;
+    overflow-y: scroll;
+    position: absolute;
+    top: 6.2rem;
+    right: 0;
+    transition: 1s;
+}
+.favourite::-webkit-scrollbar{
+    display: none;
+}
+.fav-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.1rem;
+    z-index: 10;
+}
+.fav-button:hover{
+    color: red;
+}
+
+.hide-fav-list{
+    right: -360px;
+}
+
+#fav-title{
+    color:  yellow;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#fav-title i{
+    font-size: 1.5rem;
+    margin-left: 0.4rem;
+    margin-right: 1.7rem;
+}   
+
+#show-fav:hover{
+    text-shadow: 0 0 10px #0f0,
+                 0 0 20px #0f0,
+                 0 0 30px #0f0,
+                 0 0 40px #0f0,
+                 0 0 50px #0f0;
+}
+#stop-an:hover , .movie-info-fav:hover{
+    text-shadow: 0 0 10px rgb(255, 99, 3),
+                 0 0 20px rgb(255, 99, 3),
+                 0 0 30px rgb(255, 99, 3),
+                 0 0 40px rgb(255, 99, 3),
+                 0 0 50px rgb(255, 99, 3);
+}
+
+.movie-info-fav{
+    position: absolute;
+    top: 0.7rem;
+    left: 8rem;
+    font-size: 1.5rem;
+}
